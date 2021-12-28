@@ -14,9 +14,21 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    align-items: center;
+    height: 100px;
+}
 
-    height: 5vh;
+.title {
+    margin: auto 8px;
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(167, 118, 27);
+}
+
+#search {
+    border: 2px solid #a38b8b;
+    font-size: 16px;
 }
 
 
@@ -28,9 +40,11 @@ main {
     grid-template-columns: 1fr 25%;
     grid-gap: 8px;
 }
+
 .video-box {
     border: 2px solid red;
 }
+
 .sidebar {
     border: 2px solid blue;
 }
