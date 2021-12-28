@@ -1,0 +1,36 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 100%;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+
+    height: 5vh;
+}
+
+
+/* main */
+main {
+    margin: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    grid-gap: 8px;
+}
+.video-box {
+    border: 2px solid red;
+}
+.sidebar {
+    border: 2px solid blue;
+}
