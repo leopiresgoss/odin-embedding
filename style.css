@@ -70,3 +70,20 @@ main {
 .sidebar {
     border: 2px solid blue;
 }
+
+.sidebar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px; 
+}
+
+.image img {
+    width: 200px;
+    border: 2px;
+    border-radius: 8px;
+}
