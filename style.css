@@ -70,9 +70,15 @@ main {
 
 .details {
     margin-top: 16px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
     align-items: baseline;
+}
+
+.views {
+    text-align: end;
 }
 
 .sidebar {
