@@ -13,6 +13,12 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
 /* navbar */
 
 .navbar {
@@ -70,7 +76,7 @@ main {
 
 .details {
     margin-top: 16px;
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8px;
