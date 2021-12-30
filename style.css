@@ -28,6 +28,8 @@ body {
     font-size: 32px;
     font-weight: bold;
     color: var(--text-color);
+
+    cursor: pointer;
 }
 
 #search {
