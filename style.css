@@ -101,3 +101,7 @@ main {
 
     cursor: pointer;
 }
+
+.card .content .author {
+    margin-left: 8px;
+}
